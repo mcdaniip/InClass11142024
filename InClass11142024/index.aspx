@@ -11,7 +11,7 @@
         <div>
             <asp:ListBox ID="lbPizzaCompanies" runat="server"></asp:ListBox>
             </br>
-            <asp:Button ID="cmdSelectPizzaCompany" runat="server" Text="Select A Pizza Company" />
+            <asp:Button ID="cmdSelectPizzaCompany" runat="server" Text="Select A Pizza Company" OnClick="cmdSelectPizzaCompany_Click1" />
             </br>
             <asp:Label ID="lblSelectedPizzaCompany" runat="server" Text=""></asp:Label>
             </br>

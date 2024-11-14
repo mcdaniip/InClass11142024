@@ -32,16 +32,12 @@ namespace InClass11142024
 
         }
 
-        protected void cmdSelectPizzaCompany_Click(object sender, EventArgs e)
+                protected void cmdSelectPizzaCompany_Click1(object sender, EventArgs e)
         {
             //We call this an "event handler"
             //This code runs when the cmdSelectPizzaCompany button is clicked
             //Write the currently selected pizza company in the list box into the label
             lblSelectedPizzaCompany.Text = lbPizzaCompanies.Text;
         }
-
-
-
-
     }
 }
